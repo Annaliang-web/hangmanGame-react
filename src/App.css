@@ -1,0 +1,144 @@
+body, html{
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.navBar{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.App h1{
+  font-size: 3em;
+}
+
+.base{
+  position: absolute;
+  height: 100px;
+  width: 500px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+button {
+  color: rgb(224, 224, 6);
+  font-size: 1.3em !important;
+  background-color: rgb(155, 229, 184);
+  text-shadow: 2px 2px dimgrey;
+  padding:10px;
+  border: none;
+  margin-left: 20px;
+}
+
+.foodques{
+  text-align: center;
+  margin-top:5%;
+}
+
+.restart{
+  margin-left:-30%;
+}
+
+.post{
+  position: absolute;
+  height: 400px;
+  width: 10px;
+  bottom: 100px;
+  left: 195px;
+  background-color: rgb(143, 33, 33);
+}
+
+.bar{
+  position: absolute;
+  height: 10px;
+  width: 200px;
+  bottom: 500px;
+  left: 195px;
+  background-color: rgb(196, 178, 20);
+}
+
+.rope{
+  position: absolute;
+  height: 50px;
+  width: 10px;
+  bottom: 450px;
+  left: 385px;
+  background-color: rgb(98, 153, 36);
+}
+
+.head{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 380px;
+  left: 353px;
+  border-radius: 100px;
+  border: 7px solid rgb(26, 212, 110);
+}
+
+.body{
+  position: absolute;
+  width: 7px;
+  height: 120px;
+  bottom: 260px;
+  left: 387px;
+  background-color: rgb(59, 152, 196);
+}
+
+.leftArm{
+  transform: rotate(45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 300px;
+  left: 365px;
+  background-color: rgb(40, 79, 209);
+}
+
+.rightArm{
+  transform: rotate(-45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 300px;
+  left: 409px;
+  background-color: rgb(91, 31, 189);
+}
+
+.leftLeg{
+  transform: rotate(45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 210px;
+  left: 365px;
+  background-color: rgb(228, 35, 196);
+}
+
+.rightLeg{
+  transform: rotate(-45deg);
+  position: absolute;
+  height: 60px;
+  width: 7px;
+  bottom: 210px;
+  left: 409px;
+  background-color: rgb(233, 58, 81);
+}
+
+.guess{
+  font-size: 2em;
+}
+
+.gameContainer{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
